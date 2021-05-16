@@ -1,0 +1,13 @@
+alias globalprotect_start="launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+alias globalprotect_stop="launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+alias os2="ssh aiellof@os2.engr.oregonstate.edu"
+
+## Git stuf
+# git status
+alias gs='git status'
+# commit
+alias gc='git commit'
+# git add
+alias ga='git add'
+# fuzzy find git checkout
+alias cb='git branch | fzf --header Checkout | xargs git checkout'

@@ -1,0 +1,13 @@
+[color]
+	ui = true
+[user]
+	name = Francesco Aiello
+	email = aiellof@oregonstate.edu
+[core]
+	editor = code -w
+	excludesfile = /Users/francesco/.gitignore_global
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
